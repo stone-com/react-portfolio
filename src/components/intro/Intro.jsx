@@ -1,5 +1,6 @@
 import React from 'react';
 import './intro.css';
+import Me from '../../img/me.png'
 
 function Intro() {
   return (
@@ -16,9 +17,16 @@ function Intro() {
               <div className='intro-title-item'>UI / UX</div>
             </div>
           </div>
+          <div className='intro-description'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            reiciendis officia accusantium aut, molestiae et impedit magni
+          </div>
         </div>
       </div>
-      <div className='intro-right'>right</div>
+      <div className='intro-right'>
+        <div className="intro-bg"></div>
+      <img src={Me} alt="" className="intro-img" />
+      </div>
     </div>
   );
 }
