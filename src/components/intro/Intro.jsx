@@ -17,10 +17,10 @@ function Intro() {
               <div className='intro-title-item'>UI / UX</div>
             </div>
           </div>
-          <div className='intro-description'>
+          <p className='intro-description'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
             reiciendis officia accusantium aut, molestiae et impedit magni
-          </div>
+          </p>
         </div>
       </div>
       <div className='intro-right'>

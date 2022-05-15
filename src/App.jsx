@@ -1,10 +1,12 @@
+import About from './components/intro/about/About';
 import Intro from './components/intro/Intro';
 
 function App() {
   return (
-    <div className='App'>
-      <h1><Intro/></h1>
-    </div>
+ <div>
+   <Intro />
+   <About />
+ </div>
   );
 }
 
