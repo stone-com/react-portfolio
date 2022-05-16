@@ -7,17 +7,22 @@ const ProjectList = () => {
   return (
     <div className='projectList'>
       <div className='projectList-texts'>
-        <h1 className='projectList-title'>Portfolio</h1>
+        <h1 className='projectList-title'> My Portfolio</h1>
         <p className='projectList-desc'>
-          Here are some of my latest projects. Click on them to see the source
-          code or the deployed application!
+          Here are some of my latest projects. Click the link for the source
+          code, or click the picture to check out the deployed app!
         </p>
       </div>
       <div className='projectList-list'>
-          {/* Map through data array, creating Project component for each one, passing in img and link values as props */}
+        {/* Map through data array, creating Project component for each one, passing in img and link values as props */}
         {data.map((project) => {
           return (
-            <Project key={project.id} img={project.img} link={project.link} name={project.name} />
+            <Project
+              key={project.id}
+              img={project.img}
+              link={project.link}
+              name={project.name}
+            />
           );
         })}
       </div>
