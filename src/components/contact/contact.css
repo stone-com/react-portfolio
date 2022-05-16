@@ -79,3 +79,14 @@ button {
     cursor: pointer;
     font-weight: 700;
 }
+
+
+@media screen and (max-width: 480px) {
+    .contact-wrapper {
+     flex-direction: column;
+     padding: 0px 50px;
+    }
+    .contact-title {
+        font-size: 30px;
+    }
+  }
