@@ -1,11 +1,29 @@
 .contact {
-    height: 100vh;
-    position: relative;
+  height: 100vh;
+  position: relative;
 }
 
 .contact-background {
-    width: 20px;
-    height: 100%;
-    background-color: green;
-    position: absolute;
+  width: 20px;
+  height: 100%;
+  background-color: green;
+  position: absolute;
+}
+
+.contact-wrapepr {
+  padding: 50px;
+  display: flex;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-right {
+  flex: 1;
+}
+
+.contact-title {
+    font-size: 60px;
+  width: 80%;
 }
