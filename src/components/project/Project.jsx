@@ -5,10 +5,7 @@ import './project.css';
 const Project = ({ img, link, name }) => {
   return (
     <div className='project'>
-      <div className='project-browser'>
-        <div className='project-circle'></div>
-        <div className='project-circle'></div>
-        <div className='project-circle'></div>
+      <div className='project-card-top'>
       </div>
       <a href={link} target='_blank' rel='noreferrer'>
         <img src={img} alt='' />

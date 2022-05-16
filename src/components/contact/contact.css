@@ -1,12 +1,13 @@
 .contact {
   height: 100vh;
   position: relative;
+  background-color: #96ceb4;
 }
 
 .contact-background {
   width: 20px;
   height: 100%;
-  background-color: green;
+  background-color: #588c7e;
   position: absolute;
 }
 
@@ -72,21 +73,41 @@ textarea {
 }
 
 button {
-    border: none;
-    padding: 15px;
-    background-color: green;
-    color: white;
-    cursor: pointer;
-    font-weight: 700;
+  border: none;
+  padding: 15px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
 }
 
-
 @media screen and (max-width: 480px) {
-    .contact-wrapper {
-     flex-direction: column;
-     padding: 0px 50px;
-    }
-    .contact-title {
-        font-size: 30px;
-    }
+  .contact-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
   }
+  .contact-title {
+    font-size: 30px;
+  }
+  .contact-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+  .contact-description {
+    display: none;
+  }
+
+  form {
+      margin-top: 0;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  input {
+      width: 35%;
+      height: 40px;
+      margin: 10px;
+      margin-left: 0;
+      margin-right: 20px;
+  }
+}

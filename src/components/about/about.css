@@ -2,8 +2,8 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  background-color: #ffcc5c;
 }
-
 .about-left {
   flex: 1;
   display: flex;
@@ -33,14 +33,14 @@
   position: absolute;
   top: 50px;
   left: 50px;
-  background-color: #333;
+  background-color: #d96459;
 }
 
 @media screen and (max-width: 480px) {
   .about {
-   flex-direction: column;
-   text-align: center;
-   margin-top: 50px;
+    flex-direction: column;
+    text-align: center;
+
   }
 
   .about-left {
@@ -51,9 +51,7 @@
     height: 30vh;
   }
 
-  .about-card.bg {
-    display: none;
-  }
+
 
   .about-right {
     padding: 20px;

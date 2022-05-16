@@ -9,7 +9,7 @@ const ProjectList = () => {
       <div className='projectList-texts'>
         <h1 className='projectList-title'> My Portfolio</h1>
         <p className='projectList-desc'>
-          Here are some of my latest projects. Click the link for the source
+          Here are some of my latest projects. Click the name for the source
           code, or click the picture to check out the deployed app!
         </p>
       </div>
