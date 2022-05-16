@@ -1,6 +1,7 @@
 import React from 'react';
 import './projectList.css';
 import Project from '../project/Project';
+import data from '../../data';
 
 const ProjectList = () => {
   return (
@@ -13,11 +14,12 @@ const ProjectList = () => {
         </p>
       </div>
       <div className='projectList-list'>
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+          {/* Map through data array, creating Project component for each one, passing in img and link values as props */}
+        {data.map((project) => {
+          return (
+            <Project key={project.id} img={project.img} link={project.link} name={project.name} />
+          );
+        })}
       </div>
     </div>
   );
