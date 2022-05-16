@@ -13,7 +13,7 @@ const Project = ({ img, link, name }) => {
       <a href={link} target='_blank' rel='noreferrer'>
         <img src={img} alt='' />
       </a>
-          <h2>{name}</h2>
+        <h2>{name}</h2>
     </div>
   );
 };

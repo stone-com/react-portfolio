@@ -5,6 +5,10 @@
   border: 2px solid grey;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
+  transition: all 0.5s ease;
+}
+.project:hover {
+    transform: scale(1.1)
 }
 
 .project-browser {
@@ -19,9 +23,18 @@
   height: 6px;
   border-radius: 50%;
   background-color: white;
-  margin: 4px;
+  margin: 5px;
 }
 
 img {
   max-width: 100%;
+}
+
+
+
+h2 {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
